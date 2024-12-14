@@ -1,0 +1,8 @@
+# INFO: Upstream moved to rolling releases and removed all tarballs.
+#       The Github mirror (https://github.com/LuaJIT/LuaJIT) does not match the checksums and have missing header files.
+#       Conan will consume the backup sources from the Conan Center Artifactory instead, which are the original tarballs (same checksums).
+#       Read the issue https://github.com/conan-io/conan-center-index/issues/25032 for more information.
+sources:
+  "2.1.100":
+    url: "https://github.com/LuaJIT/LuaJIT/archive/refs/heads/v2.1.zip"
+
